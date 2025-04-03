@@ -14,96 +14,78 @@
             background: url('images/team/background.jpg') no-repeat center center;
             background-size: cover;
         }
-        #page-title h1 {
-            font-weight: bold;
-            color: black;
-        }
-
-        #page-title .breadcrumb p {
-            text-align: left;
-            font-weight: bold;
-            color: white;
-        }
-
-        #header {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 999;
-            transition: all 0.3s ease-in-out;
-        }
-
-        #header.sticky {
-            background-color: rgba(0, 0, 0, 0.9); /* Add a background color when sticky */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
-        }
-
+    </style>
+    <style>
         body {
-            padding-top: 80px; /* Prevent content from overlapping the sticky header */
+            background-color: lightgrey !important; /* Explicitly set the page background color to light grey */
+        }
+
+        .team-desc p {
+            text-align: center !important; /* Explicitly center-align the lines under the name */
         }
     </style>
-</head>
+    <style>
+        .heading-text.heading-section span {
+            border-bottom: 2px solid rgb(15, 15, 76); /* Blue border */
+            display: inline-block; /* Keep the text inline */!-- Header -->
+            width: 50px; /* Adjust the width of the border */der id="header" data-fullwidth="true" class="">
+            margin: 0 auto; /* Center the border only */     <div class="header-inner">
+        }
+    </style>-->
+</head>v id="logo">
 <body class="breakpoint-xl b--desktop">
-    <div class="body-inner">
-        <!-- Header -->
+    <div class="body-inner">images/team/nil-me-logo.png" alt="NIL ME Logo" class="logo-default">
+        <!-- Header -->mages/nil-me-logo.png" alt="NIL ME Logo" class="logo-dark">
         <header id="header" data-fullwidth="true" class="">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
-                    <div id="logo">
-                        <a href="index.html">
-                            <img src="images/team/nil-me-logo.png" alt="NIL ME Logo" class="logo-default">
-                            <img src="images/nil-me-logo.png" alt="NIL ME Logo" class="logo-dark">
+                    <div id="logo">"Close search form"><i class="icon-x"></i></a>
+                        <a href="index.html">m class="search-form" action="search-results-page.html" method="get">
+                            <img src="images/team/nil-me-logo.png" alt="NIL ME Logo" class="logo-default">  <input class="form-control" name="q" type="text" placeholder="Type &amp; Search...">
+                            <img src="images/nil-me-logo.png" alt="NIL ME Logo" class="logo-dark">ass="text-muted">Start typing &amp; press "Enter" or "ESC" to close</span>
                         </a>
                     </div>
                     <!--End: Logo-->
                     <!-- Search -->
                     <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
                         <form class="search-form" action="search-results-page.html" method="get">
-                            <input class="form-control" name="q" type="text" placeholder="Type &amp; Search...">
-                            <span class="text-muted">Start typing &amp; press "Enter" or "ESC" to close</span>
+                            <input class="form-control" name="q" type="text" placeholder="Type &amp; Search...">  <li>
+                            <span class="text-muted">Start typing &amp; press "Enter" or "ESC" to close</span>tn-search" href="#"> <i class="icon-search"></i></a>
                         </form>
                     </div>
-                    <!-- end: search -->
-                    <!--Header Extras-->
+                    <!-- end: search -->    <div class="p-dropdown">
+                    <!--Header Extras-->    <a href="#"><i class="icon-globe"></i><span>EN</span></a>
                     <div class="header-extras">
-                        <ul>
-                            <li>
+                        <ul>       <li><a href="#">English</a></li>
+                            <li>    </ul>
                                 <a id="btn-search" href="#"> <i class="icon-search"></i></a>
                             </li>
                             <li>
                                 <div class="p-dropdown">
-                                    <a href="#"><i class="icon-globe"></i><span>EN</span></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="#">English</a></li>
-                                    </ul>
+                                    <a href="#"><i class="icon-globe"></i><span>EN</span></a>s-->
+                                    <ul class="p-dropdown-content">posnive Trigger-->
+                                        <li><a href="#">English</a></li>Menu-trigger">
+                                    </ul>ass="lines-button x"><span class="lines"></span></a>
                                 </div>
-                            </li>
+                            </li>snive Trigger-->
                         </ul>
                     </div>
                     <!--end: Header Extras-->
-                    <!--Navigation Resposnive Trigger-->
+                    <!--Navigation Resposnive Trigger-->  <nav>
                     <div id="mainMenu-trigger">
-                        <a class="lines-button x"><span class="lines"></span></a>
-                    </div>
-                    <!--end: Navigation Resposnive Trigger-->
-                    <!--Navigation-->
-                    <div id="mainMenu">
-                        <div class="container">
+                        <a class="lines-button x"><span class="lines"></span></a>li><a href="index.html">Home</a></li>
+                    </div> class="dropdown"><span class="dropdown-arrow"></span><a href="#">What We Do</a>
+                    <!--end: Navigation Resposnive Trigger-->ss="dropdown-menu" style="">
+                    <!--Navigation-->           <li><a href="header-topbar.html">Light</a></li>
+                    <div id="mainMenu">        <li><a href="header-topbar-dark.html">Dark</a></li>
+                        <div class="container">nsparent.html">Transparent</a></li>
                             <nav>
-                                <ul>
+                                <ul>width.html">Fullwidth</a></li>
                                     <li><a href="index.html">Home</a></li>
                                     <li class="dropdown"><span class="dropdown-arrow"></span><a href="#">What We Do</a>
                                         <ul class="dropdown-menu" style="">
-                                            <li><a href="header-topbar.html">Light</a></li>
-                                            <li><a href="header-topbar-dark.html">Dark</a></li>
-                                            <li><a href="header-topbar-transparent.html">Transparent</a></li>
-                                            <li><a href="header-topbar-colored.html">Colored</a></li>
-                                            <li><a href="header-topbar-fullwidth.html">Fullwidth</a></li>
-                                            <li><a href="header.html">Header</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><span class="dropdown-arrow"></span><a href="#">Events</a>
+                                            <li><a href="header-topbar.html">Light</a></li>"#">Events</a>
                                         <ul class="dropdown-menu" style="">
                                             <li><a href="slider-revolution-slider.html">Revolution Slider</a></li>
                                             <li><a href="slider-inspiro-slider.html">Inspiro Slider</a></li>
@@ -150,510 +132,11 @@
                 </div>
                 <div class="breadcrumb">
                     <p>NIL Middle East began promoting NIL Ltd Global services from 2011 to 2023. Today, NIL ME delivers its own consulting and professional services solutions while strengthening global alliances with partners such as NETNOLOGY and COMPIS.</p>
-                    <p>The company officially established its first office in Dubai, UAE, in 2018, followed by its Riyadh, Saudi Arabia office in 2021 and Cairo, Egypt office in 2022.</p>
-                </div>
-            </div>
-        </section>
-        <section id="page-content">
-            <div class="container text-center">
-                <!-- Founder Section -->
-                <div class="heading-text heading-section">
-                    <h2>Meet the Founder</h2>
-                    <span>Seasoned ICT professional with 30+ years of experience.</span>
-                </div>
-                <div class="row justify-content-center team-members m-b-40">
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/yas.jpg" class="img-fluid">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Yaman Abo Saleh</h3>
-                                <span>Founder & CEO</span>
-                                <p>Yaman worked for both large local and multinational Corporations in the Middle East.</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sales Team Section -->
-                <div class="heading-text heading-section">
-                    <h2>Learning Advisory Team</h2>
-                    <span>The most happiest time of the day! Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo.</span>
-                </div>
-                <div class="row justify-content-center team-members m-b-40">
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/hazem.jpg">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Hazem Samir</h3>
-                                <span>Regional Sales Director</span>
-                                <p>Expert in IT learning services for more than 15 years, MBA holder in marketing and global Leadership.</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/ayman.jpg">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Ayman Shaalan</h3>
-                                <span>Board of Advisors - Member</span>
-                                <p>Holder of: Instructor Excellence & Distinguished Instructor awards from Cisco.</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/g.jpg">
-                            </div>
-                            <div class="team-desc">
-                                <h3>George Homsy</h3>
-                                <span>Regional Sales Manager</span>
-                                <p>George has extensive sales experience in the GCC Region.</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/saed.jpg">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Saed Ayman</h3>
-                                <span>Operations Manager</span>
-                                <p>Saed holds a Bachelor of Science in Computer Engineering.</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- End of previous group -->
-                
-                <!-- New centered duplication of Saed -->
-                <div class="row justify-content-center team-members m-b-40">
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/haitham.jpg">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Haitham Mohamed</h3>
-                                <span>Senior Consultant</span>
-                                <p>Description of the new team member goes here.</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/l.jpg">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Kholoud ALabdo</h3>
-                                <span>Sales Manager Assistant</span>
-                                <p>....</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Development Team Section -->
-                <div class="heading-text heading-section">
-                    <h2>Administrative Operations Team</h2>
-                    <span>The most happiest time of the day! Nulla varius consequat magna, id molestie ipsum volutpat quis.</span>
-                </div>
-                <div class="row justify-content-center team-members m-b-40">
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/ruba.jpg">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Ruba Khattam</h3>
-                                <span>Admin Ops. Manager</span>
-                                <p>The most happiest time of the day! Praesent tristique hendrerit ex ut laoreet.</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/mary.jpg">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Mary Rose Salenga</h3>
-                                <span>Accountant</span>
-                                <p>Specialized in financial management and accounting practices.
-
-                                </p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/Ahmed Fouad.webp">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Emma Ross</h3>
-                                <span>Software Developer</span>
-                                <p>The most happiest time of the day! Praesent tristique hendrerit ex ut laoreet.</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <div class="team-image">
-                                <img src="images/team/grace.jpg">
-                            </div>
-                            <div class="team-desc">
-                                <h3>Grace Agader</h3>
-                                <span>Office & HR Manager</span>
-                                <p>The most happiest time of the day! Praesent tristique hendrerit ex ut laoreet.</p>
-                                <div class="align-center">
-                                    <a class="btn btn-xs btn-slide btn-light" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <span>Facebook</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
-                                        <i class="fab fa-twitter"></i>
-                                        <span>Twitter</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
-                                        <i class="fab fa-instagram"></i>
-                                        <span>Instagram</span>
-                                    </a>
-                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
-                                        <i class="icon-mail"></i>
-                                        <span>Mail</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="footer-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="widget">
-                                <div class="widget-title">Polo HTML5 Template</div>
-                            </a>
-                            
-            <!-- Footer -->
-            <footer id="footer">
-                <div class="footer-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <div class="widget">
-                                    <div class="widget-title">Polo HTML5 Template</div>
-                                    <p class="mb-5">Built with love in Fort Worth, Texas, USA<br>
-                                        All rights reserved. Copyright © 2019. INSPIRO.</p>
-                                    <a href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923" class="btn btn-inverted" target="_blank">Purchase Now</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="row">
-                                    <div class="col-lg-3">
-                                        <div class="widget">
-                                            <div class="widget-title">Discover</div>
-                                            <ul class="list">
-                                                <li><a href="#">Features</a></li>
-                                                <li><a href="#">Layouts</a></li>
-                                                <li><a href="#">Corporate</a></li>
-                                                <li><a href="#">Updates</a></li>
-                                                <li><a href="#">Pricing</a></li>
-                                                <li><a href="#">Customers</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="widget">
-                                            <div class="widget-title">Features</div>
-                                            <ul class="list">
-                                                <li><a href="#">Layouts</a></li>
-                                                <li><a href="#">Headers</a></li>
-                                                <li><a href="#">Widgets</a></li>
-                                                <li><a href="#">Footers</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="widget">
-                                            <div class="widget-title">Pages</div>
-                                            <ul class="list">
-                                                <li><a href="#">Portfolio</a></li>
-                                                <li><a href="#">Blog</a></li>
-                                                <li><a href="#">Shop</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="widget">
-                                            <div class="widget-title">Support</div>
-                                            <ul class="list">
-                                                <li><a href="#">Help Desk</a></li>
-                                                <li><a href="#">Documentation</a></li>
-                                                <li><a href="#">Contact Us</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="copyright-content">
-                    <div class="container">
-                        <div class="copyright-text text-center">© 2019 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved.<a href="//www.inspiro-media.com" target="_blank" rel="noopener"> INSPIRO</a> </div>
-                    </div>
-            </div></footer>
-            <!-- end: Footer -->
-        </div>
-        <!-- end: Body Inner -->
-        <a id="scrollTop" style="bottom: 16px; opacity: 0; z-index: 199;"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
-        <!--Plugins-->
-        <script src="js/jquery.js"></script>
-        <script src="js/plugins.js"></script>
-        <script>
-            // Ensure the navigation bar toggles correctly
-            document.addEventListener('DOMContentLoaded', function () {
-                const mainMenuTrigger = document.getElementById('mainMenu-trigger');
-                const mainMenu = document.getElementById('mainMenu');
-        
-                if (mainMenuTrigger && mainMenu) {
-                    mainMenuTrigger.addEventListener('click', function () {
-                        mainMenu.classList.toggle('active');
-                    });
-                }
-            });
-        </script>
-        <script>
-    // Ensure the navigation bar appears and disappears on scroll
-    document.addEventListener('DOMContentLoaded', function () {
-        const header = document.getElementById('header');
-        let lastScrollTop = 0;
-
-        window.addEventListener('scroll', function () {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-            if (scrollTop > lastScrollTop) {
-                // Scrolling down
-                header.style.top = '-80px'; // Hide the navbar
-            } else {
-                // Scrolling up
-                header.style.top = '0'; // Show the navbar
-            }
-
-            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For mobile or negative scrolling
-        });
-    });
-</script>
-        <script>
-        // Make the navigation bar sticky with a smooth effect
-        document.addEventListener('DOMContentLoaded', function () {
-            const header = document.getElementById('header');
-            const stickyClass = 'sticky';
-
-            window.addEventListener('scroll', function () {
-                if (window.scrollY > 50) {
-                    header.classList.add(stickyClass);
-                } else {
-                    header.classList.remove(stickyClass);
-                }
-            });
-        });
-    </script>
-        <!--Template functions-->
-        <script src="js/functions.js"></script>
-    
-    
-    </body></html>
+                                <div class="heading-text heading-section">                      <h2>Meet the Founder</h2>di                    <span>Seasoned ICT professional with 30+ years of experience.</span>io                </div>on                <div class="row justify-content-center team-members m-b-40">iv                    <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/yas.jpg" class="img-fluid">                              </div>                              <div class="team-desc">                                  <h3>Yaman Abo Saleh</h3>                                  <span>Founder & CEO</span>                                  <p>Yaman worked for both large local and multinational Corporations in the Middle East.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                  </div>                    <!-- Sales Team Section -->                  <div class="heading-text heading-section">                      <h2>Learning Advisory Team</h2>                      <span>We provide expert guidance to help organizations optimize their training programs, ensuring effective skill development and workforce readiness.</span>                  </div>                  <div class="row justify-content-center team-members m-b-40">                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/hazem.jpg">                              </div>                              <div class="team-desc">                                  <h3>Hazem Samir</h3>                                  <span>Regional Sales Director</span>                                  <p>Expert in IT learning services for more than 15 years, MBA holder in marketing and global Leadership.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/ayman.jpg">              </div>
+                                            <div class="team-desc">                                  <h3>Ayman Shaalan</h3>                                  <span>Board of Advisors - Member</span>                                  <p>Holder of: Instructor Excellence & Distinguished Instructor awards from Cisco.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/g.jpg">              </div>
+                                            <div class="team-desc">                                  <h3>George Homsy</h3>                                  <span>Regional Manager</span>                                  <p>George has extensive sales experience in the GCC Region.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/saed.jpg">              </div>
+                                            <div class="team-desc">                                  <h3>Saed Ayman</h3>                                  <span>Operations Manager</span>                                  <p>Saed holds a Bachelor of Science in Computer Engineering.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                  </div> <!-- End of previous group -->                                    <!-- New centered duplication of Saed -->                  <div class="row justify-content-center team-members m-b-40">                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/new-member.jpg">                              </div>                              <div class="team-desc text-center">                                  <h3>New Member</h3>                                  <span>Team Role</span>                                  <p>Description of the new team member goes here.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/l.jpg">              </div>
+                                            <div class="team-desc text-center">                                  <h3>Kholoud ALabdo</h3>                                  <span>Sales Manager Assistant</span>                                  <p>....</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                  </div>                    <!-- Development Team Section -->                  <div class="heading-text heading-section">                      <h2>Development Team</h2>                      <span>The most happiest time of the day! Nulla varius consequat magna, id molestie ipsum volutpat quis.</span>                  </div>                  <div class="row justify-content-center team-members m-b-40">                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/6.jpg">                              </div>                              <div class="team-desc">                                  <h3>Alea Smith</h3>                                  <span>Software Developer</span>                                  <p>The most happiest time of the day! Praesent tristique hendrerit ex ut laoreet.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/7.jpg">              </div>
+                                            <div class="team-desc">                                  <h3>Ariol Doe</h3>                                  <span>Software Developer</span>                                  <p>The most happiest time of the day! Praesent tristique hendrerit ex ut laoreet.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/8.jpg">              </div>
+                                            <div class="team-desc">                                  <h3>Emma Ross</h3>                                  <span>Software Developer</span>                                  <p>The most happiest time of the day! Praesent tristique hendrerit ex ut laoreet.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                      <div class="col-lg-3">                          <div class="team-member">                              <div class="team-image">                                  <img src="images/team/9.jpg">              </div>
+                                            <div class="team-desc">                                  <h3>Victor Loda</h3>                                  <span>Software Developer</span>                                  <p>The most happiest time of the day! Praesent tristique hendrerit ex ut laoreet.</p>                                  <div class="align-center">                                      <a class="btn btn-xs btn-slide btn-light" href="#">                                          <i class="fab fa-facebook-f"></i>                                          <span>Facebook</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">                                          <i class="fab fa-twitter"></i>                                          <span>Twitter</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">                                          <i class="fab fa-instagram"></i>                                          <span>Instagram</span>                                      </a>                                      <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">                                          <i class="icon-mail"></i>                                          <span>Mail</span>                                      </a>                                  </div>                              </div>                          </div>                      </div>                  </div>              </div>          </section>          <!-- Footer -->          <footer id="footer">              <div class="footer-content">                  <div class="container">                      <div class="row">di                        <div class="col-lg-5">io                            <div class="widget">oo                                <div class="widget-title">Polo HTML5 Template</div>r                                 <p class="mb-5">Built with love in Fort Worth, Texas, USA<br>iv                                    All rights reserved. Copyright © 2019. INSPIRO.</p>                                  <a href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923" class="btn btn-inverted" target="_blank">Purchase Now</a>                              </div>                          </div>                          <div class="col-lg-7">                              <div class="row">                                  <div class="col-lg-3">                                      <div class="widget">                                          <div class="widget-title">Discover</div>                                          <ul class="list">                                              <li><a href="#">Features</a></li>                                              <li><a href="#">Layouts</a></li>                                              <li><a href="#">Corporate</a></li>                                              <li><a href="#">Updates</a></li>                                              <li><a href="#">Pricing</a></li>                                              <li><a href="#">Customers</a></li>                                          </ul>                                      </div>                                  </div>                                  <div class="col-lg-3">                                      <div class="widget">                                          <div class="widget-title">Features</div>                                          <ul class="list">                                              <li><a href="#">Layouts</a></li>                                              <li><a href="#">Headers</a></li>                                              <li><a href="#">Widgets</a></li>                                              <li><a href="#">Footers</a></li>                                          </ul>                                      </div>                                  </div>                                  <div class="col-lg-3">                                      <div class="widget">                                          <div class="widget-title">Pages</div>                                          <ul class="list">                                              <li><a href="#">Portfolio</a></li>                                              <li><a href="#">Blog</a></li>                                              <li><a href="#">Shop</a></li>                                          </ul>                                      </div>                                  </div>                                  <div class="col-lg-3">                                      <div class="widget">                                          <div class="widget-title">Support</div>                                          <ul class="list">                                              <li><a href="#">Help Desk</a></li>                                              <li><a href="#">Documentation</a></li>                                              <li><a href="#">Contact Us</a></li>                                          </ul>                                      </div>                                  </div>                              </div>                          </div>                      </div>                  </div>              </div>              <div class="copyright-content">                  <div class="container">                      <div class="copyright-text text-center">© 2019 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved.<a href="//www.inspiro-media.com" target="_blank" rel="noopener"> INSPIRO</a> </div>                  </div>          </div></footer>          <!-- end: Footer -->di    </div>iv    <!-- end: Body Inner -->      <a id="scrollTop" style="bottom: 16px; opacity: 0; z-index: 199;"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>      <!--Plugins-->      <script src="js/jquery.js"></script></    <script src="js/plugins.js"></script>nd    <script>          // Ensure the navigation bar toggles correctlyBo        document.addEventListener('DOMContentLoaded', function () {ol            const mainMenuTrigger = document.getElementById('mainMenu-trigger');s-            const mainMenu = document.getElementById('mainMenu');c=    c=            if (mainMenuTrigger && mainMenu) {                  mainMenuTrigger.addEventListener('click', function () {ur                    mainMenu.classList.toggle('active');nt                });ns            }ns        });      </script>      <script>          // Ensure the navigation bar appears and disappears on scroll          document.addEventListener('DOMContentLoaded', function () {              const header = document.getElementById('header');              let lastScrollTop = 0;;pt            window.addEventListener('scroll', function () {t>                const scrollTop = window.pageYOffset || document.documentElement.scrollTop; Ecu                if (scrollTop > lastScrollTop) {                      // Scrolling down                      header.style.top = '-80px'; // Hide the navbar                  } else {                      // Scrolling up                      header.style.top = '0'; // Show the navbar                  }                    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For mobile or negative scrolling              });          });      </script>      <!--Template functions-->      <script src="js/functions.js"></script>  </body>  </html>    </body></html>
